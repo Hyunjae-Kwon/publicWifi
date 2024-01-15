@@ -96,8 +96,8 @@ public class WifiDAO {
 		try {
 			connection = DBConnect.dbConnect();
 			
-			String sql = "SELECT *, round(6371 * acos(cos(radians(37.5717888)) * cos(radians(LAT)) * cos(radians(LNT) - RADIANS(127.008768)) + "
-					+ " sin(radians(37.5717888)) * sin(radians(LAT))), 4) AS distance "
+			String sql = "SELECT *, round(6371 * acos(cos(radians(?)) * cos(radians(LAT)) * cos(radians(LNT) - RADIANS(?)) + "
+					+ " sin(radians(?)) * sin(radians(LAT))), 4) AS distance "
 					+ "FROM wifi "
 					+ "ORDER BY distance "
 					+ "LIMIT 20; ";
