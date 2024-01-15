@@ -11,7 +11,7 @@
 	<div>
 		<h1>즐겨 찾기 그룹 관리</h1>
 	</div>
-	<div>
+	<div style="padding-bottom: 10px;">
 		<a href="http://localhost:8080/">홈</a>
 		<a>|</a>
 		<a href="http://localhost:8080/main/history.jsp">위치 히스토리 목록</a>
