@@ -16,7 +16,7 @@
 		String lnt = request.getParameter("lnt") == null ? "0.0" : request.getParameter("lnt");
 	%>
 	<div>
-		<h1>와이파이 정보 구하기!!</h1>
+		<h1>와이파이 정보 구하기</h1>
 	</div>
 	<div style="padding-bottom: 10px;">
 		<a href="http://localhost:8080/">홈</a>
