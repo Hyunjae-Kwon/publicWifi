@@ -13,7 +13,6 @@
 - Web : `CSS`, `HTML5`, `JSP`
 - Library : `Okhttp3`, `Gson`, `Lombok`, `Mariadb-Client`
 
-
 ### 📒 프로젝트 작동 순서 및 기능
 - 공공 API를 활용하여 서울시 와이파이 정보를 가져온다.
 - 사용자의 위치 정보를 조회한 뒤 조회한 좌표를 기반으로 주변의 가까운 와이파이 정보 20개를 보여준다.
@@ -21,5 +20,7 @@
 - 각 와이파이 정보의 상세 정보를 볼 수 있다.
 - 사용자는 북마크 그룹이 생성되어 있다면 해당 와이파이 정보를 북마크 그룹에 추가하거나 삭제할 수 있다.
 - 사용자는 북마크 그룹을 생성하고, 그룹 목록을 조회하며, 그룹을 수정하거나 삭제할 수 있다.
+
+### 📒 ![PublicWifi_ERD_Img](https://github.com/Hyunjae-Kwon/publicWifi/assets/109747270/11dcba49-4dee-4b6b-a888-43e7f8077205)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=150&section=footer" />
